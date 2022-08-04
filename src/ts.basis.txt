@@ -1,0 +1,62 @@
+// // string
+// let profession: string;
+// // profession = "frontend engineer";
+// let age: string;
+// // boolean
+// let isMale: boolean;
+// // array of strings of my student
+// let myStudent: string[];
+// // array of numbers of student score
+// let studentScore: number[];
+// // tuple
+// let roles: [string, number];
+// // roles = ["admin", 7]
+// // Object
+// type Person = {
+//   firstname: string
+//   lastname?: string
+//   gender?: string
+//   country?: string
+//   // | means union combination 
+//   password: number | string
+// }
+// let person: Person = {
+//   firstname: "Alimi",
+//   password: "addaadda1223"
+// }
+// let allStaffThatAreDeveloper: Person[];
+// // function returning nothing but functions(void)
+// // can have any kind of return type like string, number,
+// // object, array
+// // Void return UNDEFINED while Never return NOTHING
+// let callName: (name: string) => number;
+// // function callName(name:string){
+// //   console.log(name)
+// // }
+// // callName("marusoft")
+// // unknow type is better than any type
+// let addNames: unknown;
+
+// // kinds of alias in TYPESCRIPT are
+// // type and interface
+// interface staffDetails {
+//   salary: string
+//   imgUrl: string
+// }
+// interface admin extends staffDetails {
+//   canEdit: boolean
+// }
+// type X ={
+//   a:string
+//   b:number
+// }
+// type Y = X & {
+//   c:string
+//   d:number
+// }
+// let y : Y = {
+//   a: "yummy",
+//   b: 2022,
+//   c : "cat",
+//   d : 8
+// }
